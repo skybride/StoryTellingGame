@@ -1,0 +1,27 @@
+h1, #menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 50%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.start {
+    background-color: lightblue;
+}
+
+.end {
+    background-color: lightcoral;
+}
+
+.enter {
+    background-color: lightsteelblue;
+    width: 15%;
+}
