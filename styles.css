@@ -25,3 +25,11 @@ button {
     background-color: lightsteelblue;
     width: 15%;
 }
+
+.health {
+    width: 1rem;
+}
+
+.add {
+    width: 1.5rem;
+}
