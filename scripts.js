@@ -31,7 +31,21 @@ const grabUserName = userName => {
 
 const greeting = userName => {
     menu.textContent = "Welcome " + userName;
+    let button = document.createElement("button");
+    button.textContent = "Let's Go!";
+    button.classList.add("start");
+
     menu.append(img);
+    menu.append(button);
+
+    button.addEventListener("click", spawn(img, button));
+}
+
+const spawn = (img, button) => {
+    menu.classList.add("dark");
+    img.style.display = "none"; 
+    button.style.display = "none";
+
 }
 
 const startGame = () => {
